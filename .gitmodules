@@ -1,7 +1,3 @@
 [submodule "themes"]
 	path = themes
 	url = https://github.com/alexandrevicenzi/Flex.git
-[submodule "public"]
-	path = public
-	url = https://github.com/yoker/gkeeps.com.git
-	branch = gh-pages
