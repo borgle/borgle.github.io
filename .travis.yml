@@ -9,7 +9,7 @@ install:
   - pip install -r requirements.txt
 
 script: 
-  - python publishconf.py
+  - pelican
 
 after_success:
   - export COMMIT_MSG=$(git log -1 --oneline --format="%s")
