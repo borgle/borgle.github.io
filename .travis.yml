@@ -1,0 +1,21 @@
+
+sudo: false
+
+language: python
+python:
+  - "2.7"
+
+install:
+  - pip install .
+  - pip install -r requirements.txt
+
+script: 
+  - python publishconf.py
+
+after_success:
+  - cd public
+  - git push yoker HEAD:gh-pages
+
+branches:
+  only:
+    - master
