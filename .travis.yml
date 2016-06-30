@@ -12,8 +12,11 @@ script:
   - python publishconf.py
 
 after_success:
+  - export COMMIT_MSG=$(git log -1 --oneline --format="%s")
   - cd public
-  - git push yoker HEAD:gh-pages
+  - git add .
+  - git commit --allow-empty -m "$(COMMIT_MSG)"
+  - git push origin HEAD:gh-pages
 
 branches:
   only:
