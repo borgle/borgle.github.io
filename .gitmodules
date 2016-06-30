@@ -3,5 +3,5 @@
 	url = https://github.com/alexandrevicenzi/Flex.git
 [submodule "public"]
 	path = public
-	url = https://github.com/yoker/gkeeps.com.git
+	url = https://github.com/borgle/wu.git
 	branch = gh-pages

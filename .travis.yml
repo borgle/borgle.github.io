@@ -18,7 +18,7 @@ after_success:
   - git config --global user.name "Yoker.Wu"
   - git add --all
   - git commit -a -m "$COMMIT_MSG"
-  - git push -q https://yoker:${GITHUB_API_KEY}@github.com/yoker/gkeeps.com.git HEAD:gh-pages
+  - git push -f -q https://borgle:${GITHUB_API_KEY}@github.com/borgle/wu.git HEAD:gh-pages
 
 branches:
   only:
