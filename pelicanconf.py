@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Yoker.Wu'
+AUTHOR = u'borgle'
 SITENAME = u'\u7f16\uff0c\u7f16\uff0c\u7f16\u82b1\u7bee'
 SITEURL = ''
 
@@ -26,7 +26,7 @@ LINKS = (
         )
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/yoker'), 
+SOCIAL = (('github', 'https://github.com/borgle'), 
           ('google', 'https://google.com/yoker'), 
           ('weibo', '#'),)
 
@@ -42,7 +42,7 @@ DATE_FORMAT = {
 }
 
 
-SITETITLE = "无题"
+SITETITLE = u"无题"
 SITESUBTITLE = u'采用C#,Java,Python,PHP专注于Web后端开发'
 SITEDESCRIPTION = u'%s\'s Thoughts and Writings' % AUTHOR
 SITELOGO = SITEURL + '/static/logo.png'
@@ -50,7 +50,7 @@ FAVICON = SITEURL + '/static/favicon.ico'
 
 ROBOTS = u'index, follow'
 
-GITHUB_URL = "https://github.com/yoker"
+GITHUB_URL = "https://github.com/borgle"
 
 THEME = "themes/"
 
